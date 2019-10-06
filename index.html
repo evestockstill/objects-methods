@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>layout</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body> 
+    <section class="container">
+        <h1>Fill in the blanks</h1>
+        <section id="textInput">
+            <label>The method 
+                <input type="text" id="text1" class="box">
+                 would get the index the last character of a string or set of characters.</label>
+            <label>A returned index of character or set of characters found within a string. Example message = I love my doggie Isla/// message.<input type="text" id="text1" class="box">gg returns 10.</label>
+            <label>In an this example message = My dog is the cutest dog ever/// what would the charAt(6) return? What property gives you the total amount of characters in a string? <input type="text" id="text1" class="box"></label>
+            <label>  The <input type="text" id="text1" class="box">method removes whitespace before and after a string.</label>
+            <label>My Dog Kicks Ass would turn into 'My','Dog','Kics','Ass' from using this method. <input type="text" id="text1" class="box">
+
+        <button onclick="answers()" id="btn">Read Answers</button>
+        <p id="answers" class="hidden">
+            The method <span class="color">lastIndexOf()</span> would get the index the last character of a string or set of characters. A returned index of character or set of characters found within a string. Example message = I love my doggie Isla///
+            message. <span class="color"> indexOf()</span> gg returns 10.
+            In an this example message = My dog is the cutest dog ever/// what would the charAt(6) return?<span class="color"> g. </span> What property gives you the total amount of characters in a string? <span class="color"> .length. The <span class="color">trim() </span> method removes whitespace before and after a string.</span> My Dog Kicks Ass would turn into 'My','Dog','Kics','Ass' from using this method <span class="color"> split().</span>
+        </p>
+
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>
